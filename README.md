@@ -1,1 +1,4 @@
 # my_blog
+Thus far I have a work directory setup and connected to github. I've gotten a django framework setup and have been going under testing to ensure that the current endpoints work much like the nc_tutorial endpoints and that the database is operational. I have not implemented any sort of cloud service and won't until I see all the options laid out to me. Though I am leaning more towards using Google's cloud services so I may begin work this next week after learning more about and using Google's cloud services during this week's workshop.
+
+I do plan on adding more endpoints as needed to fulfill the necessary actions of a blog website. For example there should be a title perhaps to every post or the listed user at the bottom. Or even a timestamp for that matter. I look to incorporate that into the database for a time record of each post.
