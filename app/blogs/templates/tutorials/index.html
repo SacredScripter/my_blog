@@ -1,0 +1,11 @@
+{% extends "blogs/base.html" %} {% load static %}{% block title %} Blogs
+{% endblock%} {% block content%}
+<div class="container">
+  <h1>Blogs</h1>
+  <ul>
+    {% for blog in blogs %}
+    <li>{{ blog.title }}</li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %} {% block jsfiles %} {% endblock jsfiles %}
